@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dancing-keys/static/css/main.d23d07c6.css",
+    "main.js": "/dancing-keys/static/js/main.e2644cac.js",
+    "static/media/east.png": "/dancing-keys/static/media/east.0dfdaae0f549fd3aeefd.png",
+    "static/media/north.png": "/dancing-keys/static/media/north.ce479cc8f18fd51a62a5.png",
+    "static/media/south.png": "/dancing-keys/static/media/south.49f057ee8246ad1c23fd.png",
+    "static/media/west.png": "/dancing-keys/static/media/west.7c864a7a87f2d8a57920.png",
+    "static/media/circle.png": "/dancing-keys/static/media/circle.ccec822d94430e2da206.png",
+    "static/media/triangule.png": "/dancing-keys/static/media/triangule.d50dd157c3cc47cffa57.png",
+    "static/media/ex.png": "/dancing-keys/static/media/ex.018dc3b0b38e9fa7e7b5.png",
+    "index.html": "/dancing-keys/index.html",
+    "main.d23d07c6.css.map": "/dancing-keys/static/css/main.d23d07c6.css.map",
+    "main.e2644cac.js.map": "/dancing-keys/static/js/main.e2644cac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23d07c6.css",
+    "static/js/main.e2644cac.js"
+  ]
+}
