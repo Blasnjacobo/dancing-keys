@@ -1,0 +1,19 @@
+.header-description{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(193, 213, 249);
+    padding: 0.2vw 0;
+    height: 10%;
+}
+
+.header-subtopic{
+    font-size: 1.5vw ;
+    margin-bottom: 5px;
+}
+
+.header-presentation{
+    font-size: 1.2vw;
+    margin: 0px;
+    margin-bottom: 10px;
+}

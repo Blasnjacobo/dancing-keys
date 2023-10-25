@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  font-family: "Karla", sans-serif;
+}
+
+.dancing-keys-header{
+  border: 3px solid black;
+  box-shadow: 10px 5px 5px rgba(90,105,193,255);
+  height: 5%;
+}
+
+.puntero{
+  position: absolute;
+  background-color: #09f;
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+  left: -20;
+  top: -20;
+  width: 40;
+  height: 40;
+  transform: translate(0px,0px);
+}
+
+.playing{
+  color: black;
+}
+
+.correctSentence-list{
+  position: absolute;
+  display: grid;
+  bottom: 25%;
+  left: 41.8%;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.readyButton{
+  position: absolute;
+  display: grid;
+  bottom: 40%;
+  left: 46%;
+  cursor: pointer;
+}
+
+.executing-instructions{
+  position: absolute;
+  display: grid;
+  bottom: 70%;
+  left: 33%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.executing-instructions2{
+  text-align: center;
+  font-size: 1vw;
+  position: absolute;
+  display: grid;
+  bottom: 67%;
+  left: 43%;
+}
+
+
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.popup button {
+  cursor: pointer;
+  background-color: #fff;
+  color: #2980b9;
+  border: 0;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.popup button:active {
+  transform: scale(0.98);
+}
+
+.popup button:focus {
+  outline: 0;
+}
+
+.round{
+  text-align: center;
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.displaying-time{
+  position: absolute;
+  display: grid;
+  bottom: 70%;
+  left: 39%;
+}
+
+button{
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: rgb(3, 7, 1);
+  font-family: cursive;
+  box-shadow: 2px 2px  2px  0 black;
+  margin: 15px 0;
+}
